@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatoble" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>コンピュータ専門学院メディアコミュニケーションeスポーツクラス</title>
+    <style>
+        :root {
+            --content-pc-width: 800px;
+            --base-bg-color: lightblue;
+            --base-booy-bg--color: lightblue;
+            --ckg-ogo-hight: 100px;
+            --ckg-logp-width: 100px;
+        }
+
+    
+
+        div {
+            border: solid 1px grey;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: var(--base-booy-bg-color);
+            width: var(--content-pc-width);
+            margin: 0 auto;
+        }
+
+        header .school_logo {
+
+            width: 100px;
+            /* height: 100px; */
+        }
+        header div:nth-child(1){
+            box-sizing: border-box;
+            color: black;
+            font-weight: bold;
+        }
+        header div:nth-child(2) {
+            box-sizing: border-box;
+            width: 400px;
+
+        }
+
+        header div:nth-child(3) {
+            box-sizing: border-box;
+            width: 300px;
+        }
+
+        header div:nth-child(1) {
+            width: var(--ckg-logo-idth);
+            height: var(--ckg-logo-width);
+        }
+
+        .contents {
+            width: var(--content-pc-width);
+            background-color: var(--base-body-bg-color);
+            margin: auto;
+        }
+
+        nav {
+            width: var(--content-pc-width);
+            background-color: var(--base-bg-color);
+            margin: 0 auto;
+        }
+
+        nav h1 {
+            text-align: center;
+
+        }
+
+        nav h2 {
+            text-align: center;
+
+        }
+
+        nav navigation-menu {
+            border: none;
+        }
+
+
+
+        nav navigation-item {
+            width: calc(var(--content-pc-width) /5);
+            padding: 0;
+            margin: 0;
+            text-align: center;
+
+        }
+
+        main {
+            width: var(--content-pc-width);
+            background-color: var(--base-bg-color);
+            margin: 0 auto;
+        }
+
+        section section h1 {
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        footer {
+            width: var(--content-pc-width);
+            background-color: var(--base-bg-color);
+            margin: 0 auto;
+        }
+
+        .container {
+            display: flex;
+            flex: wrap-wrap;
+        }
+
+        section{
+            margin-top: 0;
+        }
+        .secContent3 .secContent3 th,
+        .secContent3 tb,
+        .secContent3 table {
+            border: collapse;
+            border: solid 1px gray;
+        }
+
+        .secContent3 table {
+            margin: auto;
+            background-color: grey;
+        }
+
+        .secContent3 td,
+        .secContent3 th {
+            background-color: var(--base --bg --color);
+        }
+
+        .secContent3 thead th:nth-child(1) {
+            width: 20%;
+        }
+
+        .secContent3 thead th:nth-child(2) {
+            width: 20%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .secContent3 thead th:nth-child(3) {
+            width: 50%;
+        }
+
+        .secContent3 tbody td:nth-child(1) {
+            text-align: center;
+        }
+
+        .secContent3 tbody td:nth-child(2) {
+            text-align: center;
+
+            margin-left: 10px;
+            /* ここには数字が入っていない */
+            margin-right: 10px;
+            /* ここには数字が入っていない */
+        }
+
+        .environments>div {
+            box-sizing: border-box;
+            width: 50%;
+        }
+
+        footer {
+            margin-top: 10px;
+            border-top: solid 2px gray;
+        }
+
+        footer div {
+            width: 48%;
+        }
+
+        footer h1 {
+            font-size: 10pt;
+
+        }
+
+
+        .secContent1 {
+            display: block;
+        }
+
+        .secContent2 {
+            display: none;
+        }
+
+        .secContent3 {
+            display: none;
+        }
+
+        .secContent4 {
+            display: none;
+        }
+
+        .secConte5 {
+            display: none;
+        }
+
+        .navigation-item {
+            font-size: 10pt;
+            width: 100%;
+            text-align: center;
+            border-radius: 10px;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            width: calc(100% / 5);
+        }
+
+        .menuhidden{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contets">
+        <header class="container">
+            <div> <img src="./image/logo.png" alt="" class="school_logo"> </div>
+            <!-- <div> <img src="img/gakkou_logo.jpg" alt="" class="school logo"> </div> -->
+            <div> コンピュータ専門学院メディアコミュニケーション</div>
+            <div>
+                福岡県福岡市南区向野2-10-30
+                <br>
+                TEL 092-512-7978
+            </div>
+        </header>
+        <nav>
+         
+            <h2>コンピュータ専門学院メディアコミュニケーション<br>eスポーツクラス</h2>
+
+            <div class="navigation-menu container">
+                <input type="radio" name="check" id="tab1" checked class="menuhidden">
+                <label for="tab1" class="navigation-item" >eスポーツクラスについて</label>
+                <input type="radio" name="check" id="tab2" class="menuhidden">
+                <label for="tab2" class="navigation-item">ゲームについて</label>
+                <input type="radio" name="check" id="tab3" class="menuhidden">
+                <label for="tab3" class="navigation-item">プレイしているゲーム</label>
+                <input type="radio" name="check" id="tab4" class="menuhidden">
+                <label for="tab4" class="navigation-item">イベント</label>
+                <input type="radio" name="check" id="tab5" class="menuhidden">
+                <label for="tab5" class="navigation-item">環境</label>
+
+
+            </div>
+        </nav>
+        <main>
+            <section class="secContent1">
+                <h1>eスポーツクラス</h1>
+                <p>eスポーツクラスは2020年に立ち上げ活動は年になります</p>
+                <p>卒業生を含めて在籍した学生数は人になります</p>
+                <P>多くのゲームは人数チームとして５人などの制限があったのでゲーム大会には出れていますが</P>
+                <p>ことしはざいせきにんずうが人のため試合出場をはたしました</P>
+            </section>
+            <section class="secContent2">
+                <h1>ゲームについて</h1>
+                <p>eスポーツで行っているのは7割がパソコンゲームになります。</p>
+                <p>残り3割がPlayStation４で行うゲーム</p>
+                <p>ニンテンドースイッチが残りわずかです。</p>
+            </section>
+            <section class="secContent3">
+                <h1>プレイしているゲーム</h1>
+                <table>
+                    <tr>
+                        <th>タイトル名</th>
+                        <th> ジャンル</th>
+                        <th>説明</th>
+                    </tr>
+                </table>
+                <tbody>
+                    <tr>
+                        <td>バロラント</td>
+                        <td><img src="./image/VALORANT 1.jpg" alt=""> </td>
+                        <td>FPS</td>
+                    </tr>
+                    <tr>
+                        <td>リーグ・オブ・レジェンズ</td>
+                        <td><img src="./image/league of legends1.jpg" alt="" ></td>
+                        <td>RPG</td>
+                    </tr>
+                    <tr>
+                        <td>エーペックスレジェンズ </td>
+                        <td> <img src="./image/Apex1.jpg" alt=""></td>
+                       
+                         <td>FPS</td>
+                    </tr>
+                </tbody>
+                </table>
+            </section>
+            <section class="secContent4">
+                <h1>イベント</h1>
+                2022年
+                <div>
+                    2022 9月レッドブル チャレンジカップ バロラント
+                </div>
+                <div>
+                </div>
+            </section>
+            <section class="secConten5">
+                <h1>環境</h1>
+                <div class="container environments">
+                    <div>
+                        <ul>
+                            <li>2021年初頭のゲーミングPC
+                                <ul>
+                                    <li>CPU インテル Core i7</li>
+                                    <li>メモリー 16GB</li>
+                                    <li>ストレージ 512B (SSD)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>ゲーム
+                                <ul>
+                                    <li>バロラント</li>
+                                    <li>エーペックスレジェンズ</li>
+                                    <liu>リーグオブレジェンド</liu>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="container environments">
+                    <div>
+                        <div>
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+
+                <div class="container environments" div>
+                    <div>
+                        <div>
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+                <div class="container environments" div>
+                    <div>
+                        <div>
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="container">
+            <div>
+                <h1></h1>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div>
+                <h1>ゲームリンク</h1>
+                <h2>PC</h2>
+                <div> <a href="">エーペックスレジェンズ</a></div>
+                <div>バロラント</div>
+                <div>リーグオブレジェンド</div>
+            </div>
+            <h2>ニンテンドースイッチ</h2>
+            <div>
+                <div>大乱闘</div>
+                <div>マリオカート</div>
+                <div>??</div>
+            </div>
+    </div>
+    <div>
+    </div>
+    </footer>
+    </div>
+</body>
+
+</html>
